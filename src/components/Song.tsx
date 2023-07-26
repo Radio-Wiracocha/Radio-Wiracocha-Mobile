@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
     },
     name: {
         fontSize: 16,
-        color: '#f48225',
+        color: '#5391E2',
     },
     duration: {
         fontSize: 9,

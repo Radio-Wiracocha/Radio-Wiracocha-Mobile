@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Locutor 1",
+        "imageUrl": "https://www.hugooropeza.com/wp-content/uploads/2020/11/Andres-6773_-500x500-1.jpg",
+        "description": "Este es el Locutor 1.",
+        "category": "locutor"
+    },
+    {
+        "name": "Locutor 2",
+        "imageUrl": "https://www.vtcasociados.com/wp-content/uploads/2022/04/1-e0e7223aeb2f66a659d032fb393d11d7e62e00706b1bef5f9f1a13eaa93d4b4b.png",
+        "description": "Este es el Locutor 2.",
+        "category": "locutor"
+    },
+    {
+        "name": "Locutor 3",
+        "imageUrl": "https://derecho.udd.cl/files/2021/12/FotoAdolfoDepolo2-500x500-1.jpg",
+        "description": "Este es el Locutor 3.",
+        "category": "locutor"
+    },
+    {
+        "name": "Locutor 4",
+        "imageUrl": "https://i1.sndcdn.com/avatars-6XnHUIGC4wopEYry-agpWVw-t500x500.jpg",
+        "description": "Este es el Locutor 4.",
+        "category": "locutor"
+    },
+    {
+        "name": "Locutor 5",
+        "imageUrl": "https://i.pinimg.com/1200x/d0/0e/a4/d00ea47ac79f8e0fd83d2385ba03f332.jpg",
+        "description": "Este es el Locutor 5.",
+        "category": "locutor"
+    },
+    {
+        "name": "Emisora 1",
+        "imageUrl": "emisora1.jpg",
+        "description": "Esta es la Emisora 1.",
+        "category": "emisora"
+    },
+    {
+        "name": "Emisora 2",
+        "imageUrl": "emisora2.jpg",
+        "description": "Esta es la Emisora 2.",
+        "category": "emisora"
+    },
+    {
+        "name": "Emisora 3",
+        "imageUrl": "emisora3.jpg",
+        "description": "Esta es la Emisora 3.",
+        "category": "emisora"
+    },
+    {
+        "name": "Emisora 4",
+        "imageUrl": "emisora4.jpg",
+        "description": "Esta es la Emisora 4.",
+        "category": "emisora"
+    },
+    {
+        "name": "Emisora 5",
+        "imageUrl": "emisora5.jpg",
+        "description": "Esta es la Emisora 5.",
+        "category": "emisora"
+    },
+    {
+        "name": "Podcast 1",
+        "imageUrl": "podcast1.jpg",
+        "description": "Este es el Podcast 1.",
+        "category": "podcast"
+    },
+    {
+        "name": "Podcast 2",
+        "imageUrl": "podcast2.jpg",
+        "description": "Este es el Podcast 2.",
+        "category": "podcast"
+    },
+    {
+        "name": "Podcast 3",
+        "imageUrl": "podcast3.jpg",
+        "description": "Este es el Podcast 3.",
+        "category": "podcast"
+    },
+    {
+        "name": "Podcast 4",
+        "imageUrl": "podcast4.jpg",
+        "description": "Este es el Podcast 4.",
+        "category": "podcast"
+    },
+    {
+        "name": "Podcast 5",
+        "imageUrl": "podcast5.jpg",
+        "description": "Este es el Podcast 5.",
+        "category": "podcast"
+    }
+]

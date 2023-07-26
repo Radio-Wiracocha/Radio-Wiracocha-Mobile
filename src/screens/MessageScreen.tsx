@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
     item: {
         fontSize: 20,
         paddingBottom: 20,
-        color: '#f48225',
+        color: '#5391E2',
         textAlign: 'center'
     },
 })

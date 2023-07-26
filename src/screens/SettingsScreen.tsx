@@ -1,4 +1,4 @@
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import { StyleSheet, Text, TouchableOpacity, View, Image } from 'react-native';
 import React from 'react'
 import { getAuth, signOut } from 'firebase/auth';
 import { useNavigation } from '@react-navigation/native';
@@ -17,6 +17,12 @@ const SettingsScreen = () => {
     }
     return (
         <View style={styles.container}>
+            <View>
+                <Image style={styles.profilePic} source={require('../../assets/Miguel-circular.webp')} />
+                <Text style={styles.text}>
+                    user1@gmail.com
+                </Text>
+            </View>           
             <TouchableOpacity style={styles.button} onPress={handleSignout}>
                 <Text style={styles.textButton}>
                     SignOut
@@ -32,10 +38,16 @@ const styles = StyleSheet.create({
     container: {
         alignItems: 'center'
     },
+    profilePic: {
+        width: 200,
+        height: 200,
+        borderRadius: 50, 
+        marginTop: 20
+    },
     button: {
         alignItems: 'center',
         marginTop: 30,
-        backgroundColor: '#f48225',
+        backgroundColor: '#5391E2',
         padding: 15,
         width: '33%',
         justifyContent: 'center'
@@ -44,5 +56,11 @@ const styles = StyleSheet.create({
         color: 'white',
         textAlign: 'center',
         fontSize: 20
-    }
+    },
+    text: {
+        color: 'gray',
+        textAlign: 'center',
+        fontSize: 20,
+        padding: 5
+    },
 })
