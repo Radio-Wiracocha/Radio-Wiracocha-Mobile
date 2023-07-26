@@ -1,6 +1,7 @@
 import { NativeStackScreenProps } from '@react-navigation/native-stack';
 import { CompositeScreenProps, NavigatorScreenParams } from "@react-navigation/native";
 import { BottomTabScreenProps } from '@react-navigation/bottom-tabs';
+import MessageScreen from './src/screens/MessageScreen';
 
 declare global {
     namespace ReactNavigation {
@@ -13,6 +14,7 @@ export type RootTabParamList = {
     DetailedPlayerScreen: undefined;
     SettingsScreen: undefined;
     LibraryScreen: undefined;
+    MessageScreen: undefined;
 };
 
 export type RootStackParamList = {

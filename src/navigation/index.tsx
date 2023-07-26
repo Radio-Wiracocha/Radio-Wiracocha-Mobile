@@ -10,6 +10,7 @@ import { RootStackParamList } from "./StackScreenProps";
 import { DarkTheme, DefaultTheme, NavigationContainer } from "@react-navigation/native";
 import LinkingConf from "./LinkingConf";
 import SettingsScreen from "../screens/SettingsScreen";
+import MessageScreen from "../screens/MessageScreen";
 import { HomeScreen, LibraryScreen, LoginScreen } from "../screens/Index";
 import DetailedPlayerScreen from "../screens/DetailedPlayerScreen";
 
@@ -52,8 +53,16 @@ function BottomTabNavigator() {
                 name="LibraryScreen"
                 component={LibraryScreen}
                 options={{
-                    title: 'Library',
+                    title: 'Radio',
                     tabBarIcon: ({ color }) => <TabBarIcon name="albums" color={color} />,
+                }}
+            />
+            <BottomTab.Screen
+                name="MessageScreen"
+                component={MessageScreen}
+                options={{
+                    title: 'Message',
+                    tabBarIcon: ({ color }) => <TabBarIcon name="chatbox" color={color} />,
                 }}
             />
             <BottomTab.Screen

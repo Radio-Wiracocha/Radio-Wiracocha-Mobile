@@ -25,3 +25,5 @@ Functionalities:
     [x] Next/Previous buttons
     [x] Dark mode suported
     [x] See song detail
+
+    // npx expo start
