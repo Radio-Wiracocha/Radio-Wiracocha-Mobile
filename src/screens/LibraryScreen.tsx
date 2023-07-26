@@ -1,53 +1,52 @@
+import React, { useState, useEffect } from 'react'
 import { StyleSheet, Text, TouchableOpacity, View, Image, FlatList } from 'react-native'
-import React from 'react'
-import { Ionicons } from '@expo/vector-icons';
-
-// Datos ficticios para ilustrar el ejemplo
-const DATA = [
-  { id: '1', src: 'https://f.rpp-noticias.io/2019/02/15/753296descarga-7jpg.jpg' },
-  { id: '2', src: 'https://f.rpp-noticias.io/2019/02/15/753296descarga-7jpg.jpg' },
-  { id: '3', src: 'https://f.rpp-noticias.io/2019/02/15/753296descarga-7jpg.jpg' },
-  { id: '4', src: 'https://f.rpp-noticias.io/2019/02/15/753296descarga-7jpg.jpg' },
-  { id: '5', src: 'https://f.rpp-noticias.io/2019/02/15/753296descarga-7jpg.jpg' },
-];
+import radioData from '../utils/radio.json'; // Asegúrate de que este es el camino correcto a tu archivo JSON.
 
 const LibraryScreen = () => {
+    // Organizamos los datos por categoría
+    const locutores = radioData.filter(item => item.category === 'locutor');
+    const emisoras = radioData.filter(item => item.category === 'emisora');
+    const podcasts = radioData.filter(item => item.category === 'podcast');
+
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Locutores</Text>
             <FlatList
-                data={DATA}
+                data={locutores}
                 horizontal
                 renderItem={({ item }) => (
                     <TouchableOpacity onPress={() => {/* Navegar a detalles del locutor */}}>
-                        <Image style={styles.image} source={{ uri: item.src }} />
+                        <Image style={styles.image} source={{ uri: item.imageUrl }} />
+                        <Text>{item.name}</Text>
                     </TouchableOpacity>
                 )}
-                keyExtractor={item => item.id}
+                keyExtractor={item => item.name}
             />
             
             <Text style={styles.title}>Emisoras</Text>
             <FlatList
-                data={DATA}
+                data={emisoras}
                 horizontal
                 renderItem={({ item }) => (
                     <TouchableOpacity onPress={() => {/* Navegar a detalles de la emisora */}}>
-                        <Image style={styles.image} source={{ uri: item.src }} />
+                        <Image style={styles.image} source={{ uri: item.imageUrl }} />
+                        <Text>{item.name}</Text>
                     </TouchableOpacity>
                 )}
-                keyExtractor={item => item.id}
+                keyExtractor={item => item.name}
             />
 
             <Text style={styles.title}>Podcasts</Text>
             <FlatList
-                data={DATA}
+                data={podcasts}
                 horizontal
                 renderItem={({ item }) => (
                     <TouchableOpacity onPress={() => {/* Navegar a detalles del podcast */}}>
-                        <Image style={styles.image} source={{ uri: item.src }} />
+                        <Image style={styles.image} source={{ uri: item.imageUrl }} />
+                        <Text>{item.name}</Text>
                     </TouchableOpacity>
                 )}
-                keyExtractor={item => item.id}
+                keyExtractor={item => item.name}
             />
 
             <TouchableOpacity style={styles.button}>

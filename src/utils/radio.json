@@ -1,91 +1,91 @@
 [
     {
-        "name": "Locutor 1",
+        "name": "Andrés Torres",
         "imageUrl": "https://www.hugooropeza.com/wp-content/uploads/2020/11/Andres-6773_-500x500-1.jpg",
         "description": "Este es el Locutor 1.",
         "category": "locutor"
     },
     {
-        "name": "Locutor 2",
+        "name": "Mariana Salazar",
         "imageUrl": "https://www.vtcasociados.com/wp-content/uploads/2022/04/1-e0e7223aeb2f66a659d032fb393d11d7e62e00706b1bef5f9f1a13eaa93d4b4b.png",
         "description": "Este es el Locutor 2.",
         "category": "locutor"
     },
     {
-        "name": "Locutor 3",
+        "name": "Octavio Arroyo",
         "imageUrl": "https://derecho.udd.cl/files/2021/12/FotoAdolfoDepolo2-500x500-1.jpg",
         "description": "Este es el Locutor 3.",
         "category": "locutor"
     },
     {
-        "name": "Locutor 4",
+        "name": "Fabiana Sanchez",
         "imageUrl": "https://i1.sndcdn.com/avatars-6XnHUIGC4wopEYry-agpWVw-t500x500.jpg",
         "description": "Este es el Locutor 4.",
         "category": "locutor"
     },
     {
-        "name": "Locutor 5",
+        "name": "Daniel Torrico",
         "imageUrl": "https://i.pinimg.com/1200x/d0/0e/a4/d00ea47ac79f8e0fd83d2385ba03f332.jpg",
         "description": "Este es el Locutor 5.",
         "category": "locutor"
     },
     {
-        "name": "Emisora 1",
-        "imageUrl": "emisora1.jpg",
+        "name": "En vivo",
+        "imageUrl": "https://radiocomplementos.com/uploads/cache/production_list_artisticas-y-pisadores-para-radios-8482.jpg",
         "description": "Esta es la Emisora 1.",
         "category": "emisora"
     },
     {
-        "name": "Emisora 2",
-        "imageUrl": "emisora2.jpg",
+        "name": "Anécdotas",
+        "imageUrl": "https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/seo/noticias/segundo-tiempo-para-la-radio-en-am/1796374-1-esl-MX/Segundo-tiempo-para-la-radio-en-AM.jpg",
         "description": "Esta es la Emisora 2.",
         "category": "emisora"
     },
     {
-        "name": "Emisora 3",
-        "imageUrl": "emisora3.jpg",
+        "name": "Hits del momento",
+        "imageUrl": "https://www.shutterstock.com/image-photo/microphone-radio-studio-260nw-498395695.jpg",
         "description": "Esta es la Emisora 3.",
         "category": "emisora"
     },
     {
-        "name": "Emisora 4",
-        "imageUrl": "emisora4.jpg",
+        "name": "Hora Vintage",
+        "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_983956-MLA53460942881_012023-O.webp",
         "description": "Esta es la Emisora 4.",
         "category": "emisora"
     },
     {
         "name": "Emisora 5",
-        "imageUrl": "emisora5.jpg",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPwkLWr_GFK29AP0Cl4DLB6mU8UMx4FHLVYA&usqp=CAU",
         "description": "Esta es la Emisora 5.",
         "category": "emisora"
     },
     {
         "name": "Podcast 1",
-        "imageUrl": "podcast1.jpg",
+        "imageUrl": "https://www.technicolor.com/sites/default/files/2019-09/technicolor-podcast-cover-art-500x500.jpg",
         "description": "Este es el Podcast 1.",
         "category": "podcast"
     },
     {
         "name": "Podcast 2",
-        "imageUrl": "podcast2.jpg",
+        "imageUrl": "https://m.media-amazon.com/images/I/31Dh0pJ1bQS.jpg",
         "description": "Este es el Podcast 2.",
         "category": "podcast"
     },
     {
         "name": "Podcast 3",
-        "imageUrl": "podcast3.jpg",
+        "imageUrl": "https://images.squarespace-cdn.com/content/v1/637795195de0f42168d72234/8de6f2cf-b213-4208-bcbe-22a50eaa2cf2/superpoderes+de+facilitacion+podcast+%2823%29.png",
         "description": "Este es el Podcast 3.",
         "category": "podcast"
     },
     {
         "name": "Podcast 4",
-        "imageUrl": "podcast4.jpg",
+        "imageUrl": "https://www.irta.cat/wp-content/uploads/2023/01/Illustracio-amb-titol-1080x1080px-Produccio-Local-temporada-1-episodi-1-marca-ajbcn-500x500.jpg",
         "description": "Este es el Podcast 4.",
         "category": "podcast"
     },
     {
         "name": "Podcast 5",
-        "imageUrl": "podcast5.jpg",
+        "imageUrl": "https://cooperativapodcast.cl/podcast/site/artic/20190718/imag/foto_0000002220190718124727.jpg",
         "description": "Este es el Podcast 5.",
         "category": "podcast"
     }
