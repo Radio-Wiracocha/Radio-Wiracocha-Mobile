@@ -9,5 +9,6 @@ export interface IStackScreenProps {
 
 export type RootStackParamList = {
     HomeScreen: { id: string };
-    LoginScreen: { id: string }
-};
+    LoginScreen: { id: string };
+    DetailScreen: { id: string; name: string; imageUrl: string; category: string }; 
+}

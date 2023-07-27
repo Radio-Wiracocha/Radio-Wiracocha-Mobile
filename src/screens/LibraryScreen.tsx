@@ -1,52 +1,60 @@
-import React, { useState, useEffect } from 'react'
 import { StyleSheet, Text, TouchableOpacity, View, Image, FlatList } from 'react-native'
-import radioData from '../utils/radio.json'; // Asegúrate de que este es el camino correcto a tu archivo JSON.
+import React from 'react'
+import { useNavigation } from '@react-navigation/native';
+
+// Datos ficticios para ilustrar el ejemplo
+const DATA = require('../utils/radio.json');
+type RadioData = {
+    id: string;
+    name: string;
+    imageUrl: string;
+    description: string;
+    category: string;
+    // Y cualquier otra propiedad que tengan tus objetos
+  };
 
 const LibraryScreen = () => {
-    // Organizamos los datos por categoría
-    const locutores = radioData.filter(item => item.category === 'locutor');
-    const emisoras = radioData.filter(item => item.category === 'emisora');
-    const podcasts = radioData.filter(item => item.category === 'podcast');
+    const navigation = useNavigation();
 
     return (
-        <View style={styles.container}>
-            <Text style={styles.title}>Locutores</Text>
-            <FlatList
-                data={locutores}
-                horizontal
-                renderItem={({ item }) => (
-                    <TouchableOpacity onPress={() => {/* Navegar a detalles del locutor */}}>
-                        <Image style={styles.image} source={{ uri: item.imageUrl }} />
-                        <Text>{item.name}</Text>
-                    </TouchableOpacity>
-                )}
-                keyExtractor={item => item.name}
-            />
+     <View style={styles.container}>
+        <Text style={styles.title}>Locutores</Text>
+        <FlatList
+            data={DATA.filter((item: RadioData) => item.category === 'locutor')}
+            horizontal
+            renderItem={({ item }: { item: RadioData }) => (
+            <TouchableOpacity onPress={() => navigation.navigate('DetailScreen', item)}>
+                <Image style={styles.image} source={{ uri: item.imageUrl }} />
+                <Text>{item.name}</Text>
+            </TouchableOpacity>
+            )}
+            keyExtractor={(item: RadioData) => item.id}
+        />
             
             <Text style={styles.title}>Emisoras</Text>
             <FlatList
-                data={emisoras}
+                data={DATA.filter((item: RadioData) => item.category === 'emisora')}
                 horizontal
                 renderItem={({ item }) => (
-                    <TouchableOpacity onPress={() => {/* Navegar a detalles de la emisora */}}>
+                    <TouchableOpacity onPress={() => navigation.navigate('DetailScreen', item)}>
                         <Image style={styles.image} source={{ uri: item.imageUrl }} />
                         <Text>{item.name}</Text>
                     </TouchableOpacity>
                 )}
-                keyExtractor={item => item.name}
+                keyExtractor={item => item.id}
             />
 
             <Text style={styles.title}>Podcasts</Text>
-            <FlatList
-                data={podcasts}
+              <FlatList
+                data={DATA.filter((item: RadioData) => item.category === 'podcast')}
                 horizontal
                 renderItem={({ item }) => (
-                    <TouchableOpacity onPress={() => {/* Navegar a detalles del podcast */}}>
+                    <TouchableOpacity onPress={() => navigation.navigate('DetailScreen', item)}>
                         <Image style={styles.image} source={{ uri: item.imageUrl }} />
                         <Text>{item.name}</Text>
                     </TouchableOpacity>
                 )}
-                keyExtractor={item => item.name}
+                keyExtractor={item => item.id}
             />
 
             <TouchableOpacity style={styles.button}>

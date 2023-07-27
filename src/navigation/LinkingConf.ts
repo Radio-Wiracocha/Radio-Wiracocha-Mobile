@@ -29,6 +29,11 @@ const linking: LinkingOptions<RootStackParamList> = {
                             SettingsScreen: 'Settings'
                         },
                     },
+                    DetailScreen: {
+                        screens: {
+                            DetailScreen: 'Detail'
+                        },
+                    },
                 },
             },
             NotFound: '*',

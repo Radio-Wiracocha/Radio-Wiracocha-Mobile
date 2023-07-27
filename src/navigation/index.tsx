@@ -13,6 +13,7 @@ import SettingsScreen from "../screens/SettingsScreen";
 import MessageScreen from "../screens/MessageScreen";
 import { HomeScreen, LibraryScreen, LoginScreen } from "../screens/Index";
 import DetailedPlayerScreen from "../screens/DetailedPlayerScreen";
+import DetailScreen from '../screens/DetailScreen';
 
 const BottomTab = createBottomTabNavigator<RootTabParamList>();
 
@@ -84,9 +85,11 @@ function RootNavigator() {
         <Stack.Navigator>
             <Stack.Screen name="LoginScreen" component={LoginScreen} options={{ headerShown: false }} />
             <Stack.Screen name="HomeScreen" component={BottomTabNavigator} options={{ headerShown: false }} />
+            <Stack.Screen name="DetailScreen" component={DetailScreen} />
         </Stack.Navigator>
     );
 }
+
 
 export default function Navigation({ colorScheme }: { colorScheme: ColorSchemeName }) {
     return (

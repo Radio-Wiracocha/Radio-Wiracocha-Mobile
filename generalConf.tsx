@@ -15,13 +15,16 @@ export type RootTabParamList = {
     SettingsScreen: undefined;
     LibraryScreen: undefined;
     MessageScreen: undefined;
+    LoginScreen: undefined;
+    DetailScreen: { id: string; name: string; imageUrl: string; description: string, category: string }; // Añadir 'DetailScreen' aquí
 };
 
 export type RootStackParamList = {
-    Root: NavigatorScreenParams<RootTabParamList> | undefined;
-    Modal: undefined;
-    NotFound: undefined;
-};
+    HomeScreen: { id: string };
+    LoginScreen: { id: string };
+    DetailScreen: { id: string; name: string; imageUrl: string; description: string, category: string }; // Añadir 'DetailScreen' aquí
+}
+
 
 export type RootTabScreenProps<Screen extends keyof RootTabParamList> =
     CompositeScreenProps<
