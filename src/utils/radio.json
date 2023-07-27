@@ -2,91 +2,91 @@
     {
         "name": "Andrés Torres",
         "imageUrl": "https://www.hugooropeza.com/wp-content/uploads/2020/11/Andres-6773_-500x500-1.jpg",
-        "description": "Andrés es el mayor amante de la buena vibra que conocerás jamás. Su encanto y amor a la música te darán el mejor rato.",
+        "description": "Andrés Torres es conocido por su voz única y su amor por la música. Su programa es un viaje musical lleno de buena vibra y entretenimiento.",
         "category": "locutor"
     },
     {
-        "name": "Mariana Salazar",
+        "name": "Mary Salazar",
         "imageUrl": "https://www.vtcasociados.com/wp-content/uploads/2022/04/1-e0e7223aeb2f66a659d032fb393d11d7e62e00706b1bef5f9f1a13eaa93d4b4b.png",
-        "description": "Este es el Locutor 2.",
+        "description": "Mariana Salazar es una locutora apasionada por el mundo del espectáculo. Su programa es un mix de cultura pop y música contemporánea.",
         "category": "locutor"
     },
     {
         "name": "Octavio Arroyo",
         "imageUrl": "https://derecho.udd.cl/files/2021/12/FotoAdolfoDepolo2-500x500-1.jpg",
-        "description": "Este es el Locutor 3.",
+        "description": "Octavio Arroyo es un experto en el arte de la conversación. Su programa combina entrevistas intrigantes con música fascinante.",
         "category": "locutor"
     },
     {
-        "name": "Fabiana Sanchez",
+        "name": "Fabi Sanchez",
         "imageUrl": "https://i1.sndcdn.com/avatars-6XnHUIGC4wopEYry-agpWVw-t500x500.jpg",
-        "description": "Este es el Locutor 4.",
+        "description": "Fabiana Sánchez se destaca por su enfoque profundo en las letras de la música. Ella proporciona un análisis agudo de las canciones, iluminando su significado y relevancia.",
         "category": "locutor"
     },
     {
-        "name": "Daniel Torrico",
+        "name": "Dani Torrico",
         "imageUrl": "https://i.pinimg.com/1200x/d0/0e/a4/d00ea47ac79f8e0fd83d2385ba03f332.jpg",
-        "description": "Este es el Locutor 5.",
+        "description": "Daniel Torrico, con su pasión por la música alternativa, trae a su programa las últimas tendencias y los hallazgos únicos del vasto mundo de la música.",
         "category": "locutor"
     },
     {
         "name": "En vivo",
         "imageUrl": "https://radiocomplementos.com/uploads/cache/production_list_artisticas-y-pisadores-para-radios-8482.jpg",
-        "description": "En Vivo muestra la crudeza de la realidad, sucesos que han impactado al mundo con cortes de música que aportan a la historia, ¡no te lo pierdas!.",
+        "description": "En Vivo es una emisora que se destaca por su cobertura de los acontecimientos mundiales al instante. Aquí se narran las historias más impactantes con música relevante que complementa cada tema.",
         "category": "emisora"
     },
     {
         "name": "Anécdotas",
         "imageUrl": "https://d7lju56vlbdri.cloudfront.net/var/ezwebin_site/storage/images/_aliases/seo/noticias/segundo-tiempo-para-la-radio-en-am/1796374-1-esl-MX/Segundo-tiempo-para-la-radio-en-AM.jpg",
-        "description": "Esta es la Emisora 2.",
+        "description": "Anécdotas es una emisora dedicada a contar historias de vida asombrosas y memorables. Cada historia se realza con una cuidadosa selección de música.",
         "category": "emisora"
     },
     {
-        "name": "Hits del momento",
+        "name": "Puros Hits",
         "imageUrl": "https://www.shutterstock.com/image-photo/microphone-radio-studio-260nw-498395695.jpg",
-        "description": "Esta es la Emisora 3.",
+        "description": "Puros Hits es la emisora para aquellos que quieren mantenerse al día con las tendencias musicales actuales. Te trae las canciones más populares y pegajosas del momento.",
         "category": "emisora"
     },
     {
         "name": "Hora Vintage",
         "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_983956-MLA53460942881_012023-O.webp",
-        "description": "Esta es la Emisora 4.",
+        "description": "Hora Vintage es una emisora que te lleva en un viaje nostálgico a través de la música. Ofrece una amplia gama de clásicos atemporales que nunca pasan de moda.",
         "category": "emisora"
     },
     {
-        "name": "Emisora 5",
+        "name": "WKM",
         "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPwkLWr_GFK29AP0Cl4DLB6mU8UMx4FHLVYA&usqp=CAU",
-        "description": "Esta es la Emisora 5.",
+        "description": "WKM es un calidoscopio de sonidos y estilos. Con una mezcla ecléctica de géneros, esta emisora tiene algo para cada oyente.",
         "category": "emisora"
     },
     {
-        "name": "Podcast 1",
+        "name": "Technicolor",
         "imageUrl": "https://www.technicolor.com/sites/default/files/2019-09/technicolor-podcast-cover-art-500x500.jpg",
-        "description": "Este es el Podcast 1.",
+        "description": "Technicolor ofrece discusiones profundas sobre una variedad de temas intrigantes. Aquí se analizan las tendencias actuales, la cultura, la ciencia y mucho más.",
         "category": "podcast"
     },
     {
-        "name": "Podcast 2",
+        "name": "Formato",
         "imageUrl": "https://m.media-amazon.com/images/I/31Dh0pJ1bQS.jpg",
-        "description": "Este es el Podcast 2.",
+        "description": "Formato explora historias de vida, luchas y triunfos. Es un programa conmovedor y inspirador que toca el corazón y provoca la reflexión.",
         "category": "podcast"
     },
     {
-        "name": "Podcast 3",
+        "name": "Mindset",
         "imageUrl": "https://images.squarespace-cdn.com/content/v1/637795195de0f42168d72234/8de6f2cf-b213-4208-bcbe-22a50eaa2cf2/superpoderes+de+facilitacion+podcast+%2823%29.png",
-        "description": "Este es el Podcast 3.",
+        "description": "Mindset se centra en los temas de desarrollo personal y crecimiento. Este programa busca empoderar a los oyentes para que alcancen su máximo potencial.",
         "category": "podcast"
     },
     {
-        "name": "Podcast 4",
-        "imageUrl": "https://www.irta.cat/wp-content/uploads/2023/01/Illustracio-amb-titol-1080x1080px-Produccio-Local-temporada-1-episodi-1-marca-ajbcn-500x500.jpg",
-        "description": "Este es el Podcast 4.",
+        "name": "PromopoCast",
+        "imageUrl": "https://emilcar.fm/wp-content/uploads/2021/06/2021promopodcast-500x500.png",
+        "description": "PromoCast es un programa de comentarios y debates sobre los temas de actualidad. Es el lugar para una conversación seria, estimulante y desafiante.",
         "category": "podcast"
     },
     {
-        "name": "Podcast 5",
-        "imageUrl": "https://cooperativapodcast.cl/podcast/site/artic/20190718/imag/foto_0000002220190718124727.jpg",
-        "description": "Este es el Podcast 5.",
+        "name": "Sapiens",
+        "imageUrl": "https://www.sapiens.org/app/uploads/2022/11/Sapiens-Podcast-500x500.jpg",
+        "description": "Sapiens es un programa de entretenimiento lleno de humor, risas y diversión. Aquí puedes relajarte y disfrutar de momentos divertidos mientras te mantienes informado.",
         "category": "podcast"
     }
 ]
