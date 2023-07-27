@@ -2,7 +2,7 @@
     {
         "name": "Andrés Torres",
         "imageUrl": "https://www.hugooropeza.com/wp-content/uploads/2020/11/Andres-6773_-500x500-1.jpg",
-        "description": "Este es el Locutor 1.",
+        "description": "Andrés es el mayor amante de la buena vibra que conocerás jamás. Su encanto y amor a la música te darán el mejor rato.",
         "category": "locutor"
     },
     {
@@ -32,7 +32,7 @@
     {
         "name": "En vivo",
         "imageUrl": "https://radiocomplementos.com/uploads/cache/production_list_artisticas-y-pisadores-para-radios-8482.jpg",
-        "description": "Esta es la Emisora 1.",
+        "description": "En Vivo muestra la crudeza de la realidad, sucesos que han impactado al mundo con cortes de música que aportan a la historia, ¡no te lo pierdas!.",
         "category": "emisora"
     },
     {
