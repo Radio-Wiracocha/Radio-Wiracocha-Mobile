@@ -1,8 +1,8 @@
 import { StyleSheet, Text, TouchableOpacity, View, Image, FlatList } from 'react-native'
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import { useNavigation } from '@react-navigation/native';
+import { Audio } from 'expo-av';
 
-// Datos ficticios para ilustrar el ejemplo
 const DATA = require('../utils/radio.json');
 type RadioData = {
     id: string;
@@ -10,11 +10,42 @@ type RadioData = {
     imageUrl: string;
     description: string;
     category: string;
-    // Y cualquier otra propiedad que tengan tus objetos
   };
 
 const LibraryScreen = () => {
     const navigation = useNavigation();
+    const [isPlaying, setIsPlaying] = useState(false);
+    const [soundInstance, setSoundInstance] = useState<Audio.Sound | null>(null);
+  
+    const handlePlayPause = async () => {
+        if (!soundInstance) {
+          try {
+            const { sound } = await Audio.Sound.createAsync(
+              { uri: 'https://firebasestorage.googleapis.com/v0/b/rws-users-4cfb3.appspot.com/o/Radio-Wiracocha.mp3?alt=media&token=19ad62f6-0964-4315-a496-00cc292069c0' },
+              { shouldPlay: true }
+            );
+            setSoundInstance(sound);
+            setIsPlaying(true);
+          } catch (error) {
+            console.log('Error creating sound:', error);
+          }
+        } else {
+          if (isPlaying) {
+            await soundInstance.pauseAsync();
+          } else {
+            await soundInstance.playAsync();
+          }
+          setIsPlaying(!isPlaying);
+        }
+      };
+
+      useEffect(() => {
+        return () => {
+          if (soundInstance) {
+            soundInstance.unloadAsync();
+          }
+        };
+      }, [soundInstance]);
 
     return (
      <View style={styles.container}>
@@ -57,8 +88,8 @@ const LibraryScreen = () => {
                 keyExtractor={item => item.id}
             />
 
-            <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonText}>Reproducir emisora actual</Text>
+            <TouchableOpacity style={styles.button} onPress={handlePlayPause}>
+                <Text style={styles.buttonText}>{isPlaying ? 'Detener' : 'Reproducir'} emisora actual</Text>
             </TouchableOpacity>
         </View>
     )
